@@ -1,5 +1,37 @@
-template-repository (1.0-1) unstable; urgency=medium
+libcolor-rgb-util-perl (0.606-1) unstable; urgency=medium
 
-  * Initial release
+  * Import upstream version 0.606.
+  * Declare compliance with Debian Policy 4.6.0.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Mon, 23 Aug 2021 17:43:13 +0200
+
+libcolor-rgb-util-perl (0.604-1) unstable; urgency=medium
+
+  * Import upstream version 0.604.
+  * Update years of upstream and packaging copyright.
+  * Update debian/upstream/metadata.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 16 Mar 2021 18:31:36 +0100
+
+libcolor-rgb-util-perl (0.601-1) unstable; urgency=medium
+
+  * Import upstream version 0.601.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 11 Jun 2020 15:50:40 +0200
+
+libcolor-rgb-util-perl (0.599-2) unstable; urgency=medium
+
+  * Source-only no-change re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 12 Nov 2019 17:44:07 +0100
+
+libcolor-rgb-util-perl (0.599-1) unstable; urgency=low
+
+  * Initial release (closes: #944058).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 03 Nov 2019 15:39:03 +0100

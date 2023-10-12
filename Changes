@@ -1,0 +1,130 @@
+0.606   2021-08-06  Released-By: PERLANCAR; Urgency: medium
+
+	- [function rgb2grayscale] Add 'algo' argument, offer
+	  'weighted_average' algorithm instead of the default 'average'
+	  method. (GH#4)
+
+	- [ux] [function rgb_diff] Die if fed unknown algo instead of using
+	  default 'euclidean'.
+
+
+0.605   2021-03-12  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- [doc] Cross-reference more between functions.
+
+
+0.604   2021-01-19  Released-By: PERLANCAR; Urgency: medium
+
+	- rand_rgb_colors(): Add option 'hash_prefix'.
+
+
+0.603   2021-01-19  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- [doc] Add more description to the result of rand_rgb_colors().
+
+
+0.602   2021-01-19  Released-By: PERLANCAR; Urgency: medium
+
+	- rand_rgb_colors(): Make sure that each generated color are
+	  distinct enough from several previous ones.
+
+	- [doc] Give more description to the color difference algorithms.
+
+
+0.601   2020-06-08  Released-By: PERLANCAR; Urgency: medium
+
+	- [ux] Wrap H in input HSL/HSV.
+
+	- [ux] Make sure we show invalid rgb value in error messages.
+
+
+0.600   2020-06-07  Released-By: PERLANCAR; Urgency: medium
+
+	- Add functions: hsl2{hsv,rgb}, hsv2{hsl,rgb}.
+
+
+0.599   2019-08-20  Released-By: PERLANCAR; Urgency: medium
+
+	- Add functions: rgb2hsl, rgb2hsv (stolen from Graphics-Color,
+	  reproduced here to avoid depending on Moose et al).
+
+	- rgb_diff(): add algorithms approx2, hsv_euclidean, hsv_hue1.
+
+
+0.598   2019-08-14  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- [doc] rand_rgb_colors(): Document what happens when max_attempts
+	  is exceeded.
+
+
+0.597   2019-07-17  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+        - [test] Add tests for rand_rgb_color() and rand_rgb_colors().
+
+
+0.596   2019-07-17  Released-By: PERLANCAR; Urgency: medium
+
+	- Add functions: rand_rgb_golors, rgb2int, int2rgb.
+
+
+0.595   2019-02-13  Released-By: PERLANCAR
+
+	- Add functions: assign_rgb_light_color, assign_rgb_dark_color.
+
+
+0.594   2019-02-13  Released-By: PERLANCAR
+
+	- Add function: assign_rgb_color.
+
+
+0.593   2018-10-05  Released-By: PERLANCAR
+
+        - No functional changes.
+
+        - [build] Rebuild to fix repository URL.
+
+
+0.592   2018-10-05  Released-By: PERLANCAR
+
+        - Add mix_rgb_colors.
+
+
+0.591   2018-10-04  Released-By: PERLANCAR
+
+        - Add rgb_diff().
+
+
+0.590   2018-09-26  Released-By: PERLANCAR
+
+	- Add functions: rgb_distance, rgb_is_dark, rgb_is_light.
+
+	- [refactor] Factor out the regex pattern to a variable, it's
+	  slower but cleaner.
+
+	- [doc] Format POD headings so they can be easily referred to.
+
+
+0.58    2015-01-03  Released-By: PERLANCAR
+
+	- No functional changes.
+
+	- Rebuild (Generate TODO.md).
+
+
+0.57    2014-12-05  Released-By: PERLANCAR
+
+        - Rename module/dist from SHARYANTO-Color-Util to Color-RGB-Util.
+
+
+0.56    2013-09-10  Released-By: SHARYANTO
+
+        - No functional changes. Split from SHARYANTO-Utils to minimize
+          dependencies (I'm trying to make Text::ANSITable work under Windows).
